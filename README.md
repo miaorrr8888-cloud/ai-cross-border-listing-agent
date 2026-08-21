@@ -2,14 +2,14 @@
 
 > AI 跨境商品生产助手 —— 把任意平台的商品，一键转化为符合 Jumia 上架规范的多语言 Listing。
 
-[![CI](https://github.com/OWNER/jumia-ai-listing-agent/actions/workflows/test.yml/badge.svg)](https://github.com/OWNER/jumia-ai-listing-agent/actions/workflows/test.yml)
+[![CI](https://github.com/miaorrr8888-cloud/ai-cross-border-listing-agent/actions/workflows/test.yml/badge.svg)](https://github.com/miaorrr8888-cloud/ai-cross-border-listing-agent/actions/workflows/test.yml)
 [![v1.0.0](https://img.shields.io/badge/version-1.0.0-blue)](RELEASE_NOTES.md)
 [![tests](https://img.shields.io/badge/tests-199%20passing-green)](#)
 [![dry-run](https://img.shields.io/badge/mode-dry--run-green)](#)
 [![upload](https://img.shields.io/badge/upload-disabled-red)](#)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
 
-> CI badge 中的 `OWNER` 请在发布到 GitHub 后替换为实际用户名/组织名。
+> 仓库地址：https://github.com/miaorrr8888-cloud/ai-cross-border-listing-agent
 
 ## 1. 项目介绍
 
