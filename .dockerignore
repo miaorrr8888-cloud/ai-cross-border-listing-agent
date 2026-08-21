@@ -1,0 +1,31 @@
+# 版本控制与本地环境
+.git
+.gitignore
+.venv
+venv
+.env
+.env.*
+*.pem
+*.key
+
+# Python 缓存
+__pycache__
+*.py[cod]
+*.egg-info
+.pytest_cache
+.coverage
+htmlcov
+
+# 运行产物（镜像内按需重新生成）
+output/*
+!output/.gitkeep
+
+# IDE / 系统
+.idea
+.vscode
+.DS_Store
+*.swp
+
+# Playwright 本地缓存
+playwright-report
+test-results

@@ -1,0 +1,11 @@
+# MVP/P1/P2 依赖（保持精简，新手友好）
+pyyaml>=6.0
+pytest>=7.0          # 运行测试：pytest tests/ 或 python -m unittest tests.test_xxx
+# Excel 批量（按需安装）：pip install openpyxl
+openpyxl>=3.0
+# 浏览器真实采集（P2-1 可选，需额外安装浏览器运行时）：
+#   pip install playwright && playwright install chromium
+playwright>=1.40
+# 后续版本（可选）：
+# pandas>=2.0
+# requests>=2.28

@@ -1,0 +1,31 @@
+{
+  "source_url": "https://www.1688.com/offer/demo-full-001.html",
+  "source_platform": "1688",
+  "title_cn": "USB桌面小风扇 静音大风力 三档调速 办公室宿舍便携风扇",
+  "title_en": "",
+  "description": "USB供电桌面小风扇，采用无刷静音电机，三档风速可调，大角度俯仰调节，适合办公室、宿舍、书桌等场景。内置稳固底座，风力柔和噪音低，长时间使用不扰人。",
+  "images": [
+    "https://example.com/demo-fan/img1.jpg",
+    "https://example.com/demo-fan/img2.jpg",
+    "https://example.com/demo-fan/img3.jpg"
+  ],
+  "sku": "FAN-USB-DEMO-001",
+  "brand": "CoolBreeze",
+  "attributes": {
+    "color": "白色",
+    "material": "ABS",
+    "power": "5W",
+    "speed_levels": "3档",
+    "power_supply": "USB",
+    "noise": "低于30dB"
+  },
+  "variants": {
+    "colors": ["白色", "黑色"],
+    "sizes": ["标准款"]
+  },
+  "price": 25.0,
+  "price_currency": "CNY",
+  "cost_price": 18.0,
+  "currency": "CNY",
+  "keywords": ["usb fan", "desk fan", "portable fan", "quiet fan", "office fan"]
+}

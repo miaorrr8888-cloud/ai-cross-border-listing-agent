@@ -1,0 +1,41 @@
+app:
+  dry_run: true                 # 默认 dry-run，绝不发起真实上传
+  default_language: en
+
+http:
+  timeout: 30                   # HTTP 请求超时（秒）
+  retry_count: 3                # 最大重试次数（对 429/500/502/503）
+  dry_run: true                 # HTTP 层 dry-run 开关（与 app.dry_run 一致）
+
+upload:
+  enabled: false                # 上传开关，默认禁止（即使 dry_run=false 也禁止）
+  max_products: 1               # 单次最大上传 SKU 数量（不允许批量上传）
+
+languages:
+  supported: [zh-CN, en, fr, ar]
+
+ai:
+  provider: mock                # mock | openai | deepseek | kimi
+  api_key: ""                   # 留空；接入真实模型时填写，切勿提交假 token
+  model: ""                     # 留空则用各 provider 默认模型
+
+pricing:
+  default_commission_rate: 0.15 # Jumia 平台佣金（示例 15%）
+  default_target_margin: 0.30   # 目标利润率 30%
+  currency: RMB
+
+jumia:
+  api_base_url: ""              # 真实接入时填写（如 SellerCenter API）
+  seller_center_url: https://sellercenter.jumia.com
+  api_key: ""                   # 留空；接入真实上传时填写，切勿提交假 token
+
+collector:
+  supported_platforms: [1688, taobao, alibaba, amazon, shopify, generic]
+  # 真实网页抓取走浏览器采集层（BrowserProductCollector）
+
+browser:
+  enabled: true                # 是否启用浏览器真实采集
+  headless: true               # headless 模式（不弹出窗口）
+  timeout: 30000               # 页面加载超时（毫秒）
+  # 注意：采集真实网页需安装 Playwright：pip install playwright && playwright install chromium
+  # 未安装时返回明确错误，绝不伪造商品数据
